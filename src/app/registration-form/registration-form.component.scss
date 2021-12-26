@@ -1,0 +1,56 @@
+mat-card {
+  width: 80%;
+  height: 80%;
+  mat-form-field {
+    padding: 0 24px;
+  }
+}
+.male {
+  border: solid 1px blue;
+  background-size: cover;
+  div {
+    background-color: #a8c8f4;
+    text-align: center;
+    .letters {
+      padding-top: 10px;
+      width: 40px;
+      position: absolute;
+      display: block;
+    }
+  }
+}
+.female {
+  border: solid 1px #db3af5;
+  background-size: cover;
+  div {
+    background-color: pink;
+    text-align: center;
+    .letters {
+      padding-top: 10px;
+      width: 40px;
+      position: absolute;
+      display: block;
+    }
+  }
+
+}
+.other {
+  border: solid 1px;
+  border-color: black !important;
+  background-size: cover;
+  div {
+    text-align: center;
+    .letters {
+      padding-top: 10px;
+      width: 40px;
+      position: absolute;
+      display: block;
+    }
+  }
+}
+mat-card-actions {
+  padding: 0 24px;
+}
+mat-card-content {
+  padding: inherit;
+}

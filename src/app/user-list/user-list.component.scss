@@ -1,0 +1,43 @@
+mat-card {
+  table {
+    width: 100%;
+    tr {
+      height: auto !important;
+      min-height: 41px;
+    }
+    mat-form-field {
+      padding: 12px;
+    }
+  }
+  padding: 24px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 24px;
+  mat-card-header {
+    place-content: space-between;
+  }
+  ::ng-deep .mat-header-cell {
+    color: black;
+    font-size: inherit;
+    font-weight: bold;
+    padding: 5px 0;
+  }
+}
+.add-button {
+  text-align: right;
+  padding-bottom: 5px;
+}
+.mat-divider {
+  border-top-color: #fa9b00;
+}
+.equipment-chip {
+  font-size: 12px;
+  height: min-content;
+}
+::ng-deep .mat-chip-list-wrapper {
+  margin: 0 !important;
+}
+.filter-input {
+  width: 80%;
+  padding: 10px 10%;
+}
